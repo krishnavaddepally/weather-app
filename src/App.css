@@ -1,0 +1,50 @@
+body{
+  background: url('./img/bg.jpg');
+}
+.heading{
+  text-align: center;
+  font-size: 60px;
+}
+
+.description{
+  font-size: 25px;
+  text-align: center;
+}
+
+#form{
+  text-align: center;
+
+}
+
+.inputField{
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  font-size: 12px;
+}
+input:hover{
+  background-color: #ffffb3;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.output{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  color: #0442a5;
+}
