@@ -1,6 +1,7 @@
 import React from "react"
 
 const Weather = props => {
+  let celcius=props.temperature-273
   return(
     <div className="output">
         {props.city && props.country &&
@@ -12,7 +13,7 @@ const Weather = props => {
         {props.temperature &&
           <div>
             <label>Temperature:</label>
-            {props.temperature}(kelvin Scale)
+            {Math.round(celcius*100)/100} c
           </div>
         }
         {
